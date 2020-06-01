@@ -33,7 +33,7 @@ Now that you can "see" when users navigate to new pages in your knowledge base, 
 
 Navigate back to your Zendesk Guide theme code editor, and paste the following into the `script.js` file: 
 
-```
+```js
 document.addEventListener("DOMContentLoaded", function() {
     if (localStorage.ajs_user_id !== `"${HelpCenter.user.email}"` && HelpCenter.user.role !== 'anonymous') {
         analytics.identify(HelpCenter.user.email, {
