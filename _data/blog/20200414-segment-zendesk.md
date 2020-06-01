@@ -1,6 +1,6 @@
 ---
 title: Segment & Zendesk
-date: "2020-04-14"
+date: 2020-04-14T00:00:00.000Z
 ---
 
 When properly integrated into your customer support knowledge base, Segment can provide some incredible insight into your customers' self-service experience. Let's integrate Segment with Zendesk Guide—it only takes a few minutes.
