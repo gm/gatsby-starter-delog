@@ -37,7 +37,7 @@ const ContactPage = ({
             </div>
             <div>
               <label htmlFor="w3lMessage">Message</label>
-              <textarea name="name" id="w3lMessage"></textarea>
+              <textarea name="message" id="w3lMessage"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input name="submit" type="submit" className="button -primary" style={{marginRight: 0}} />
