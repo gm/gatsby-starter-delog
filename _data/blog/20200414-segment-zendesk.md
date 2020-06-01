@@ -13,7 +13,7 @@ An integration with [Segment](https://www.segment.com/) involves throwing a coup
 ## Step 1 - Obtain Segment Snippet
 If you haven't, [create a Segment account](https://app.segment.com/signup/). You'll be guided through the process of creating a workspace, and subsequently a project. Once you have a project, you can either follow the tutorial to "Install the Segment snippet on your website", or create a new source—a Javascript website, in this case. 
 
-![Segment Snippet](./segment_snippet.png)
+![Segment Snippet](./20200414-segment-zendesk/segment_snippet.png)
 
 The Javascript snippet above is the first thing we're going to be adding to your Zendesk Guide template. Copy that snippet to your clipboard and proceed to _Step 2_. 
 
@@ -24,7 +24,7 @@ Select `document_head.hbs` and paste the entire snippet from _Step 1_ directly u
 
 Once you've published the changes, you've successfully integrated Segment's Analytics.js snippet into your knowledge base! To verify, you can take a peek at the debugger in Segment. You should see `Page` events pop up anytime you navigate to a new page in your knowledge base.
 
-![Segment Page Debug](./segment_page_debug.png)
+![Segment Page Debug](./20200414-segment-zendesk/segment_page_debug.png)
 
 ## Step 3 - Add Identify Calls
 
@@ -51,7 +51,7 @@ For demonstration purposes, I chose to identify the user by their email, but it 
 
 Once published, you can verify that that you are identifying users in Segment by checking out the debugger in Segment. 
 
-![Segment Identify Debug](./segment_identify_debug.png)
+![Segment Identify Debug](./20200414-segment-zendesk/segment_identify_debug.png)
 
 ## Discussion
 
