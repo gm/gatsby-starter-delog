@@ -20,10 +20,10 @@ const ContactPage = ({
           <p>Let us help you kick start your next customer operations initiative &rarr;</p>
         </div>
         <div>
-          <form name="contact" className="form-container" method="POST" data-netlify="true">
+          <form name="Contact" className="form-container" method="post" data-netlify="true">
             <div>
               <label htmlFor="w3lName">Name</label>
-              <input name="name" type="text" name="w3lName" id="w3lName"/>
+              <input name="name" type="text" id="w3lName"/>
             </div>
             <div>
               <label htmlFor="w3lSender">Email</label>
