@@ -20,18 +20,18 @@ const ContactPage = ({
           <p>Let us help you kick start your next customer operations initiative &rarr;</p>
         </div>
         <div>
-          <form name="Contact" className="form-container" method="post" data-netlify="true">
+          <form name="contact" className="form-container" method="post" data-netlify="true">
             <div>
               <label htmlFor="w3lName">Name</label>
               <input name="name" type="text" id="w3lName"/>
             </div>
             <div>
               <label htmlFor="w3lSender">Email</label>
-              <input name="email" type="email" name="w3lSender" id="w3lSender"/>
+              <input name="email" type="email" id="w3lSender"/>
             </div>
             <div>
               <label htmlFor="w3lSubject">Subject</label>
-              <input name="subject" type="text" name="w3lSubject" id="w3lSubject"/>
+              <input name="subject" type="text" id="w3lSubject"/>
             </div>
             <div>
               <label htmlFor="w3lMessage">Message</label>
