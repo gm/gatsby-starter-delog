@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 title: Segment & Zendesk
-date: 2020-04-14T00:00:00.000Z
+date: 2020-05-01T00:00:00.000Z
 path: /20200414-segment-zendesk
 thumbnail: /assets/image-5.jpg
 metaDescription: df sdf df
