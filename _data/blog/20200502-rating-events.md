@@ -3,7 +3,7 @@ template: BlogPost
 title: Tracking Article Ratings
 date: 2020-05-02T00:00:00.000Z
 path: /20200502-article-ratings
-thumbnail: /assets/image-5.jpg
+thumbnail: /assets/image-1.jpg
 metaDescription: df sdf df
 ---
 

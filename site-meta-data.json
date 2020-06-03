@@ -1,9 +1,9 @@
 {
   "title": "CustomerOps",
-  "siteUrl": "https://romantic-sammet-205014.netlify.app/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "siteUrl": "https://www.customerops.llc/",
+  "description": "CustomerOps, LLC — We make customer teams better.",
   "home": {
     "title": "We're CustomerOps",
-    "description": "We'll add something witty here eventualy, but for now, just pretent that we're Tron in the scene where he says \"I fight for the users\"."
+    "description": "We build systems and processes that make your customer support teams more effective. Our data driven approach is designed to improve both the customer support experience, and the inter-team dynamics within your organization—without the need for unwarranted growth. "
   }
 }
