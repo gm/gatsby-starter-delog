@@ -2,7 +2,7 @@
 template: BlogPost
 title: Support Email Pixel Tracking
 date: 2020-06-10T00:00:00.000Z
-path: 20200610-segment-zendesk-pixel
+path: /20200610-segment-zendesk-pixel
 thumbnail: /assets/image-2.jpg
 metaDescription: df sdf df
 ---
@@ -18,7 +18,7 @@ Monitoring when a user views of a page in your support portal is straight forwar
 Tracking pixels are quite cool. Tradtionally, they're 1x1 transparent images that you embed in something like an email. Browsers needs to fetch (i.e., GET) all images—including tracking pixels—when something like an email is opened, which means that the host of the image can keep an eye on activity related to that image to determine when the email is viewed by the recipient.  
 
 
-```
+```html
 <img src="https://api.segment.io/v1/pixel/track?writeKey=YOUR_PIXEL_TRACK_KEY&userId={{ticket.requester.id}}&event={{"Email Opened" | url_encode}}&properties.updated_at={{ticket.updated_at_with_timestamp}}&properties.email={{ticket.requester.email | url_encode}}">
 ```
 
