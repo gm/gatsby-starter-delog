@@ -22,6 +22,7 @@ Tracking pixels are quite cool. Tradtionally, they're 1x1 transparent images tha
 <img src="https://api.segment.io/v1/pixel/track?writeKey=YOUR_PIXEL_TRACK_KEY&userId={{ticket.requester.id}}&event={{"Email Opened" | url_encode}}&properties.updated_at={{ticket.updated_at_with_timestamp}}&properties.email={{ticket.requester.email | url_encode}}">
 ```
 
+
 ## Email Templates
 
 When you add a _comment_ in Zendesk, it doesn't necessarily generate an email notification to the requester of the case. Instead, Zendesk leaves it up to your trigger logic to determine the recipients of any case related notifcations. The default Zendesk notification trigger sends  notification to both the requester (the end-user that created the ticket in most cases), and anybody else cc'd on the ticket. In this case, we only want ot know when the requester opens the email, so we'll need to change this to only email the requester and create another trigger to email the cc's. 
